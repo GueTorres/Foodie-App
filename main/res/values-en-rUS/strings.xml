@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meal Time</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_placeholder">Title</string>
+    <string name="description">Description</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="calories">Calories</string>
+    <string name="webLink">Web Link</string>
+
+    <string-array name="food_ingredients">
+        <item>Wild Garlic Pesto ingredients</item>
+        <item>Big Ol\' Texas Bowl With Nacho Cheese ingredients</item>
+        <item>Super Creamy Mac and Cheese ingredients</item>
+        <item>Sesame Cheese ingredients</item>
+        <item>Paprika Cheese ingredients</item>
+        <item>Quinoa and Date Sugar Brownies ingredients</item>
+        <item>Portobello Mushroom Burgers ingredients</item>
+        <item>Vanilla Cappuccino Protein Pudding ingredients</item>
+        <item>Creamy Pumpkin Seed Alfredo With Kale and Sweet Peas ingredients</item>
+        <item>Green Energy Smoothie Bowl With Fresh Figs ingredients</item>
+    </string-array>
+    <string-array name="food_titles">
+        <item>Wild Garlic Pesto</item>
+        <item>Big Ol\' Texas Bowl With Nacho Cheese</item>
+        <item>Super Creamy Mac and Cheese</item>
+        <item>Sesame Cheese</item>
+        <item>Paprika Cheese</item>
+        <item>Quinoa and Date Sugar Brownies</item>
+        <item>Portobello Mushroom Burgers</item>
+        <item>Vanilla Cappuccino Protein Pudding</item>
+        <item>Creamy Pumpkin Seed Alfredo With Kale and Sweet Peas</item>
+        <item>Green Energy Smoothie Bowl With Fresh Figs</item>
+    </string-array>
+
+    <string-array name="food_images">
+        <item>@drawable/wildgarlicpesto</item>
+        <item>@drawable/bigoltexasbowlwithnachocheese</item>
+        <item>@drawable/supercreamymacandcheese</item>
+        <item>@drawable/sesamecheese</item>
+        <item>@drawable/paprikacheese</item>
+        <item>@drawable/quinoaanddatesugarbrownies</item>
+        <item>@drawable/portobellomushroomburgers</item>
+        <item>@drawable/vanillacappuccinoproteinpudding</item>
+        <item>@drawable/creamypumpkinseedalfredowithkaleandsweetpeas</item>
+        <item>@drawable/greenenergysmoothiebowlwithfreshfigs</item>
+    </string-array>
+
+    <string-array name="food_description">
+		<item>Is there anything better slathered on a dairy-free pizza or
+			tossed with noodles than pesto?</item>
+        <item>Probably not authentic Texan cuisine but it is really good,
+			good for you and uses nacho cheese as a salad dressing</item>
+        <item>A stove top dish that doesn’t involve soy, commercial vegan
+			cheese products, gluten or nuts.</item>
+        <item>A made from sesame seeds, nutritional yeast, apple cider
+			vinegar, and agar agar.</item>
+        <item>Great for a cheese platter, on crackers in a toasted
+			sandwich or anywhere where you would normally use sliced or grated cheese.</item>
+        <item>Sweetened with date sugar, which gives them a rich, toasty,
+			and caramel-y taste. Yum!</item>
+        <item>simple and very few ingredients that create a beautiful dish.</item>
+        <item>Combines the yummy coffee flavor into a filling protein pudding.</item>
+        <item>Luscious, comforting and good for you all at the same time.</item>
+        <item>Combined with the creamy sweetness of frozen banana ice cream
+			and topped with fresh jelly black mission figs, your taste buds will be dazzled.</item>
+    </string-array>
+    <string name="item_name">A Vegan Spin</string>
+</resources>
