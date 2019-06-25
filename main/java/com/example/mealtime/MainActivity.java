@@ -25,7 +25,9 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private ArrayList<MealItem> foodData;
     private MealItemAdapter mAdapter;
-
+    private Receiver mReceiver = new Receiver();
+    private static final String I_AM_HOME =
+            BuildConfig.APPLICATION_ID + "com.example.I_AM_HOME";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,8 +44,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        int gridColumnCount =
-                getResources().getInteger(R.integer.grid_column_count);
+        IntentFilter filter = new IntentFilter();
+
+        this.registerReceiver(mReceiver, filter);
+
+        LocalBroadcastManager.getInstance(this)
+                .registerReceiver(mReceiver,
+                        new IntentFilter(I_AM_HOME));
+
 
         // Initialize the RecyclerView.
         mRecyclerView = findViewById(R.id.recyclerView);
